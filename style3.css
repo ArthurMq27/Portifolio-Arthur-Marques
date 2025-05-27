@@ -1,0 +1,416 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background: #000000;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 22%, rgba(217, 217, 217, 1) 69%);
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    img{
+        max-width: 70px;
+        border-radius: 100%;
+    }
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;     
+    li a {
+        color: rgb(255, 255, 255);
+        font-size:21px;
+        font-weight:bold;
+        &:hover{
+            color: dimgrey;
+        }
+        }
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px;
+    &:hover{
+        background-color: rgb(56, 49, 49);
+        }
+    }
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://img.freepik.com/vetores-gratis/numeros-de-queda-digitais-do-codigo-binario-do-estilo-da-matriz-fundo-azul_1017-37387.jpg?semt=ais_hybrid&w=740);
+    background-position: center;
+    color: white;
+    padding-top: 100px; 
+    h1, h2, a{
+        max-width: 60%;
+        text-align: center;
+        margin:10px;
+    }
+}
+h1{
+    font-size: 3em;
+    font-weight: 800;
+}
+h2{
+    font-size: 1em;
+    font-weight: 300;
+}
+.content {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.titlecontent {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 350px;   
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin: 80px;
+}
+
+.box img {
+    width: 115%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+.box h4 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.box p {
+    margin: 10px 0;
+    font-size: 1em;
+    padding-top: 30px;
+}
+
+.box a {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+&:hover{
+ color: dimgrey;
+}
+}
+.secao{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: flex-start;
+}
+.conteudo-esquerda{
+    width: 50%;
+}
+.conteudo-esquerda h3{
+    margin-top: 0;
+    font-size: 3.1em;
+    max-width: 70%;
+    margin-bottom: 70px;
+}
+.conteudo-esquerda > p{
+    padding: 7px;
+    max-width: 70%;
+    font-size: 1.2em;
+}
+.box-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+.box-beneficio {
+  flex: 1;
+  padding: 15px;
+  text-align: left;
+}
+.box-beneficio h5 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+.box-beneficio p {
+  font-size: 1.1em;
+  padding: 2px;
+}
+.box h5{
+    margin: 0 0 5px 0;
+}
+.box p{
+    margin: 0 0 10px 0;
+}
+.btn-s3 a{
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.imagem-direita{
+    width: 45%;
+    text-align: center;
+}
+.imagem-direita img{
+    max-width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.avaliacoes{
+    padding: 80px 20px;
+    text-align: center;
+}
+.avaliacoes > h3{
+    font-size: 2.7em;
+    margin-bottom: 30px;
+}
+.avaliacoes > p{
+    font-size: 1.5em;
+    margin-bottom: 13%;
+}
+.container-av{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box-av{
+    width: 350px;
+    text-align: left;
+    margin: 45px;
+    border: 3px solid black;
+    padding: 15px;
+}
+.box-av h5{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.box-av p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.user-av{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user-av img{
+    width: 50px;
+    height: 50px;
+}
+.user-av h6{
+    font-size: 1.1em;
+    margin: 0;
+}
+.user-av p{
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
+#contato{
+    padding: 80px 20px;
+    text-align: center;
+}
+#contato h3{
+    font-size: 2.8em;
+    margin-bottom: 15%; 
+}
+.ctt-container{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.ctt-box{
+    width: 300px;
+    text-align: center;
+}
+.ctt-box img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.ctt-box h5{
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+.ctt-box a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 13px;
+    &:hover{
+        color: rgb(141, 141, 141);
+    }
+}
+.rodape{
+    background: #000000;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 22%, rgba(217, 217, 217, 1) 69%);
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.rodape img{
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.rodape hr{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+}
+.creditos{
+    font-size: 0.9em;
+
+}
+.whatsapp-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+
+.whatsapp-fixo:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-fixo img {
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 4px 10px;
+    }
+    header img {
+        max-width: 60px;
+    }
+    nav ul li a {
+        font-size: 11px;
+        padding: 5px 0px;
+    }
+    .btn {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    #hero {
+        padding-top: 120px;
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 0.9em;
+        }
+    }
+    img{
+        max-width: 80%;
+    }
+
+    .box-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        margin: 20px 0;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .secao {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .conteudo-esquerda,
+    .imagem-direita {
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteudo-esquerda h3,
+    .conteudo-esquerda > p {
+        max-width: 100%;
+    }
+
+    .imagem-direita img {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .avaliacoes > p {
+        margin-bottom: 50px;
+    }
+
+    .container-av {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-av {
+        margin: 20px 0;
+        width: 90%;
+    }
+
+    .ctt-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ctt-box {
+        width: 90%;
+    }
+
+    .rodape img {
+        max-width: 80px;
+    }
+}
